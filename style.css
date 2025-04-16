@@ -19,6 +19,7 @@ html, body{
 body{
     background-color: beige;
     margin:0;
+   
 }
 
 ul, li{
@@ -29,11 +30,12 @@ ul, li{
     align-items: center;
 }
 .nav-menu li:hover {
-    color: rgb(240, 74, 2);
+    color: #e01010 ;
    text-decoration: none;
    font-weight: 500;  
 }
 #portfolio {
+   
     background-color: beige;
     width: 100%;
     height: 100%;
@@ -48,15 +50,17 @@ ul, li{
     align-content: stretch;
     justify-content: center;
      margin-top: 5%;
-   height: 573px;
-   width: 100%;
-   
+     height: 452px;
+     width: 57%;
    }
+
 
 #compétences{
    -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24); 
    box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
    margin-bottom: 5%;
+   margin-bottom: 0%;
+    width: 100%;
 }
 
 body{
@@ -70,17 +74,22 @@ nav{
    justify-content: space-between;
    align-items: center;
    padding: 16px 32px;
-   background-color: beige;
-   -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24); 
-   box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
+   background-color: black;
 }
 
 nav ul{
    display: flex;
    gap: 16px;
-   list-style: none;
+   
    padding: 0;
    margin: 0;
+   text-decoration: none;
+list-style: none;
+}
+
+.nav-menu a{
+   color: orangered;
+   
 }
 
 #logo{
@@ -123,18 +132,18 @@ main{
 }
 
 .bouton.primaire:hover{
-   background: #c38ff5;
+   background: #e01010;
 }
 
 .bouton.secondaire{
    background: transparent;
    color: orangered;
-   border: 2px solid #8005F2;
+   border: 2px solid #e01010;
 }
 
 .bouton.secondaire:hover{
-   border: 2px solid #c38ff5;
-   color: #c38ff5;;
+   border: 2px solid #e01010;
+   color: #e01010;;
 }
 
  /* Avatar  */
@@ -167,12 +176,11 @@ main{
   color: black;
   font-family: sans-serif;
   text-transform: uppercase;
-
   border-radius: 16px;
   overflow: hidden;
   padding: 16px;
-  width: 70%;
-
+  width: 33%;
+height: 80%;
   -webkit-box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.24);
   box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.24);
 
@@ -181,11 +189,10 @@ main{
 }
 
 
-
 .carte img{
    width: 18%;
    height: 60px;
-   width: 100%;
+   width: 65%;
    height: 277px;
    margin-bottom: 100px;
    object-fit: cover;
@@ -203,14 +210,10 @@ main{
    display: flex;
    align-items: center;
    justify-content: space-between;
-}
-.prix h3, .prix h2 {
-   margin: 0;
+
 }
 
-.prix h3{
-   color: #8005F2;
-}
+
 
 .cartes-container{
    display: flex;
@@ -218,7 +221,9 @@ main{
    padding: 0px 34px;
 
 }
-
+body h1{
+   color: orangered;
+}
 main h1{
    display: flex;
    text-transform: uppercase;
@@ -230,9 +235,18 @@ main h1{
 
 footer{
    display: flex;
+   flex-direction: column;
    align-items: center;
+   background-color: rgb(254, 58, 4);
    justify-content: center;
+   height: 325px;
+   gap: 5px;
+   width: ;
+   color: black;
 } 
+a#foooter{
+   color: white;
+}
 
 #logo img{
 width: 80px;
@@ -242,8 +256,8 @@ border: 2px solid orangered;
 }
 
 img#profil{
-   width: 30%;
-   height: 380px;
+   width: 32%;
+   height: 399px;
    -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24); 
    box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
 
@@ -254,16 +268,15 @@ header{
     -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24); 
    box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
    margin-bottom: 5%;
-}}
+}
 
 #div-header {
     height: 100%;
     width: 800px;
 }
 
-footer{
-   -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24); 
-   box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
- background-color: black;  
+
+h2#footer{
+   color: white;
 }
 h4{ color: white;}
